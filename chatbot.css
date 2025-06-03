@@ -1,0 +1,36 @@
+#chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  font-family: Arial;
+}
+
+#chat-window {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#chat-log {
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#user-input {
+  width: 70%;
+  padding: 5px;
+}
+
+button {
+  width: 25%;
+  padding: 5px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
